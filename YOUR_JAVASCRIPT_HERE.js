@@ -1,5 +1,5 @@
 // Write your JS here
-//Declaring a variable 'hero' and assign it an object
+//Declaring a variable 'hero' and assign an object to it
 const hero = {
 	name: 'John',
 	heroic: true,
