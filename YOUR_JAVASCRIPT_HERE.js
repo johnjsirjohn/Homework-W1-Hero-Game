@@ -15,7 +15,7 @@ const hero = {
 //rest function can be called with object as an argument
 function rest(heroObject) {
 	if (heroObject.health === 10) {
-		alert('Your have the highest level of health!');
+		alert('Your health is level 10! This is the highest possible level!');
 	} else {
 		heroObject.health = 10;
 	}
@@ -42,3 +42,11 @@ function equipWeapon(heroObject) {
 		heroObject.weapon = heroObject.inventory[0];
 	}
 }
+
+//for the Bonus
+function displayStats() {
+	const p = document.getElementById('par');
+	p.innerHTML = `Hero's Name: ${hero.name} <br/> Health: ${hero.health} <br/> Weapon Type: ${hero.weapon
+		.type} <br/> Weapon Damage: ${hero.weapon.damage}`;
+}
+displayStats();
