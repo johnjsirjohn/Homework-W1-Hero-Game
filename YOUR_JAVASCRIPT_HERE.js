@@ -12,7 +12,7 @@ const hero = {
 };
 
 //Declaring the functions rest
-//rest function can be called with object as an argument
+//rest function can be called with an object as an argument
 function rest(heroObject) {
 	if (heroObject.health === 10) {
 		alert('Your health is level 10! This is the highest possible level!');

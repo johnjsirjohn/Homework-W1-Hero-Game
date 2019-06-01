@@ -3,8 +3,15 @@ body {
   max-width: 768px;
 }
 
+#par {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0;
+}
+
 img {
-  display: flexbox;
+  display: inline-flex;
   width: 200px;
   height: 200px;
   padding: 20px;
@@ -12,9 +19,8 @@ img {
 
 }
 
-#par {
-  font-size: 20px;
-  font-weight: 700;
-  text-align: center;
-  margin: 20px 0;
+img:hover {
+  opacity: .8;
+  transform: scale(1.1);
+  transition: .7s;
 }
